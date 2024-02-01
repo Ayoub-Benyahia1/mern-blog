@@ -6,11 +6,12 @@ import Projects from "./pages/Projects";
 import About from "./pages/About";
 import Dashboard from "./pages/Dashboard";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
     <BrowserRouter>
-    <Header />
+      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/sign-in" element={<SignIn />} />
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }
