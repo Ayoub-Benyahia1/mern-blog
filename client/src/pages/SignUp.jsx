@@ -66,7 +66,7 @@ function SignUp() {
               <Label value="Email" />
               <TextInput
                 type="email"
-                placeholder="Email"
+                placeholder="Example@gmail.com"
                 id="email"
                 onChange={handleChange}
               />
@@ -75,7 +75,7 @@ function SignUp() {
               <Label value="Password" />
               <TextInput
                 type="password"
-                placeholder="Password"
+                placeholder="********"
                 id="password"
                 onChange={handleChange}
               />
