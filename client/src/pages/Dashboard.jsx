@@ -19,10 +19,9 @@ function Dashboard() {
         {/* Sidebar */}
         <DashSidebar />
       </div>
-      <div className="">
-        {/* Main */}
-        {tab === "profile" && <Profile />}
-      </div>
+
+      {/* Main */}
+      {tab === "profile" && <Profile />}
     </div>
   );
 }
